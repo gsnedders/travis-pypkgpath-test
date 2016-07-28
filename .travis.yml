@@ -6,6 +6,10 @@ python:
 
 sudo: false
 
+before_install:
+  - ln -s . /tmp/tools
+  - cd /tmp/tools
+
 install:
   - pip install -U py==1.4.31
 
