@@ -7,7 +7,7 @@ python:
 sudo: false
 
 before_install:
-  - ln -s . /tmp/tools
+  - ln -rs . /tmp/tools
   - cd /tmp/tools
 
 install:
