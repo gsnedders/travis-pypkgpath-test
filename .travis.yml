@@ -1,0 +1,13 @@
+language: python
+python:
+  - 2.7
+  - 3.5
+  - pypy
+
+sudo: false
+
+install:
+  - pip install -U py==1.4.31
+
+script:
+  - python test.py
