@@ -7,7 +7,7 @@ python:
 sudo: false
 
 before_install:
-  - cp -r `pwd` /tmp/tools
+  - mv `pwd` /tmp/tools
   - cd /tmp/tools
 
 install:
